@@ -4,6 +4,7 @@
     position: fixed;
     overflow: hidden;
     width: 100%;
+    z-index: 2;
     
   }
   #logo {
@@ -13,27 +14,6 @@
     max-width: 7%;
     padding: 9px 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-
-  #lock1 {
-    position: relative;
-    top: 0px;
-    right: 240px;
-    color: #f2f2f2;
-    text-align: center;
-    max-width: 7%;
-    padding: 9px 30px;
-  }
-
-  #lock2 {
-    position: relative;
-    top: 0px;
-    right: 240px;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    max-width: 7%;
-    padding: 9px 30px;
   }
   
   /* Style the links inside the navigation bar */
@@ -57,11 +37,6 @@
   .topnav a.active {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-  }
-
-  h1 {
-    text-align: center;
-    font-size: x-large;
   }
 
   body {
@@ -97,7 +72,7 @@
   }
 
   .info {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(231, 231, 231);
     margin: 2em 0em;
     padding: 1em;
   }
@@ -117,6 +92,100 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 20em;
   }
 
+  #title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#3D59AB;
+    float: left;
+    position: absolute;
+    top: 4em;
+    height: 1em;
+    left: 1em;
+    right: 0em;
+    padding: 1em 0em;
+    width: 60%;
+    font-size: 3em;
+  }
+
+  #subtitle {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    position: absolute;
+    top: 11.5em;
+    height: 1em;
+    left: 1em;
+    right: 1em;
+    padding: 1em;
+    width: 60%;
+    font-size: x-large;
+    font-weight: 100;
+  }
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

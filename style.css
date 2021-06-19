@@ -11,8 +11,8 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    max-width: 4%;
-    padding: 9px 30px;
+    width: 9%;
+    padding: 10px 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
@@ -110,16 +110,37 @@
     border-style: solid;
     border-width: 2px;
   }
+  
+  .sequential h4 {
+    font-size: small;
+    float:left;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+    
+  }
+
+  #warning {
+    color: red;
+    font-weight: 100;
+    font-size: small;
+    text-align: center;
+  }
 
   .footnote {
     background-color: #3D59AB;
     color:#f2f2f2;
     font-size: x-small;
     text-align: center;
-    line-height: 0em;
+    line-height: 10px;
     padding: 1em;
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  #github {
+    width: 3%;
+    float:right
   }
 
 
@@ -165,6 +186,8 @@
 
   .w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
   .w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+
+  .mySlides {display:none;}
 
   @media (max-width:600px){
     

@@ -149,9 +149,6 @@
     position:relative
   }
 
-  .w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
-  .w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
-
   .w3-button{ 
     border:none;
     display:inline-block;
@@ -166,9 +163,8 @@
     white-space:nowrap
   }
 
-  .mySlides {
-    display: none;
-  }
+  .w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+  .w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
 
   @media (max-width:600px){
     

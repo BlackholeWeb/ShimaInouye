@@ -2,9 +2,11 @@
 .topnav {
     background-color: #3D59AB;
     position: fixed;
+    top: 0px;
     overflow: hidden;
     width: 100%;
     z-index: 2;
+    box-shadow: 2px 2px 2px black;
   }
 
   #logo {
@@ -24,7 +26,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 14px 30px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 3vw;
   }
    
   /* Change the color of links on hover */
@@ -66,12 +68,13 @@
 
   h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2em;
+    font-size: 4vw;
     text-align: center;
   }
 
   p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
   }
 
   button {
@@ -111,7 +114,7 @@
   }
   
   .sequential h4 {
-    font-size: small;
+    font-size: 2vw;
     float:left;
     font-weight: 100;
     padding: 0px;
@@ -122,14 +125,14 @@
   #warning {
     color: red;
     font-weight: 100;
-    font-size: small;
+    font-size: 2vw;
     text-align: center;
   }
 
   .footnote {
     background-color: #3D59AB;
     color:#f2f2f2;
-    font-size: x-small;
+    font-size: 0.1vw;
     text-align: center;
     line-height: 10px;
     padding: 1em;
@@ -148,21 +151,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-  }
-
-
-  #subtitle {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    position: absolute;
-    top: 11.5em;
-    height: 1em;
-    left: 1em;
-    right: 1em;
-    padding: 1em;
-    width: 60%;
-    font-size: x-large;
-    font-weight: 100;
   }
 
   .w3-display-container{
@@ -189,5 +177,10 @@
   .mySlides {display:none;}
 
   @media (max-width:600px){
-    
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 12px;
+    }
   }

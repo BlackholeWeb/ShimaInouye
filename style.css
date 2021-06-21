@@ -43,6 +43,7 @@
   }
 
   #top {
+    padding-top: 60px;
     background-image: url('../photos/edited7.png');
     background-position: center right;
     background-size: 100%;
